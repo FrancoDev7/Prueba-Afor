@@ -53,7 +53,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
   try {
     const data = await getWeather(location)
 
-
+    // aqui evaluo si la peticion es exitosa o no si no lo es porque da un 404 error 
     if (data.cod !==  200) {
       error.innerHTML = `La ciudad ${location} no se encuentra`
       return
