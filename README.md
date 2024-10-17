@@ -1,11 +1,9 @@
-
-- API = https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-
 ## Prueba Afor Clima
 Crear una apliacion web que permita al usuario ingresar una ubicacion y obtener el clima actual de esa area 
 utilizando la api API de openweathermap. La Prueba se realizara con html, JavaScript y CSS.
+- API = https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
-## Requisitos:
+Requisitos:
 ## Interfaz de usuario
 - Un campo de entrada para ingresar la ubicación.
 - Un botón para enviar la consulta.
