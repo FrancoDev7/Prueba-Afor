@@ -37,6 +37,11 @@ document.querySelector('form').addEventListener('submit', async (event) => {
   event.preventDefault()
   const location = document.querySelector('#location').value
   const error = document.getElementById('error')
+
+  // Limpiar mensajes previos
+  error.innerHTML = ''
+  document.getElementById('temp').innerHTML = 'Temperatura: 0 °C'
+  document.getElementById('humidity').innerHTML = 'Humedad: 0 %'
   
   // si no se ingresa nada y se da al boton de enviar se muestra una alerta para que escriba una ubicacion
   if (!location) {
