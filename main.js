@@ -11,8 +11,8 @@ document.querySelector('#app').innerHTML = `
 
     <div>
       <h2>Resultados</h2>
-      <p id='temp'>Temperatura: 0 °C</p>
-      <p id='humidity'>Humedad: 0 %</p>
+      <p id='temp'>Temperatura: 0°C</p>
+      <p id='humidity'>Humedad: 0%</p>
 
       
     </div>
@@ -41,7 +41,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
   // Limpiar mensajes previos
   error.innerHTML = ''
   document.getElementById('temp').innerHTML = 'Temperatura: 0 °C'
-  document.getElementById('humidity').innerHTML = 'Humedad: 0 %'
+  document.getElementById('humidity').innerHTML = 'Humedad: 0%'
   
   // si no se ingresa nada y se da al boton de enviar se muestra una alerta para que escriba una ubicacion
   if (!location) {
@@ -60,8 +60,8 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     }
 
     console.log(data)
-    document.getElementById('temp').innerHTML = `Temperatura: ${data.main.temp} °C`
-    document.getElementById('humidity').innerHTML = `Humedad: ${data.main.humidity} %`
+    document.getElementById('temp').innerHTML = `Temperatura: ${data.main.temp}°C`
+    document.getElementById('humidity').innerHTML = `Humedad: ${data.main.humidity}%`
 
     
   } catch (error) {
