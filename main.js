@@ -62,7 +62,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     console.log(data)
     // convertir la temperatura de kelvin a celsius los grados kelvin son 273.15 
     const temp = (data.main.temp - 273.15).toFixed(0) // convertir a entero
-    document.getElementById('temp').innerHTML = `Temperatura: ${temp} °C`
+    document.getElementById('temp').innerHTML = `Temperatura: ${temp}°C`
     document.getElementById('humidity').innerHTML = `Humedad: ${data.main.humidity}%`
 
     
