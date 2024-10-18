@@ -74,6 +74,7 @@ button {
   cursor: pointer;
   transition: border-color 0.25s;
   margin-left: 6px;
+  height: 45px;
 }
 button:hover {
   border-color: #646cff;
@@ -96,6 +97,7 @@ button:focus-visible {
   }
 }
 input {
+  height: 25px;
   border: 1px solid #ccc;
   border-radius: 4px;
   padding: 0.5em;
