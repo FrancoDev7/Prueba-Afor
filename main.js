@@ -5,7 +5,7 @@ document.querySelector('#app').innerHTML = `
   <div>
     <h1>Prueba Afor Clima</h1>
     <form>
-      <input type="text" id="location" placeholder="Ingresa una ubicacion" />
+      <input type="text" id="location" placeholder="Valencia, Barcelona, Madrid, Chile etc" />
       <button type="submit">Enviar</button>
     </form>
 
@@ -13,8 +13,6 @@ document.querySelector('#app').innerHTML = `
       <h2>Resultados</h2>
       <p id='temp'>Temperatura: 0°C</p>
       <p id='humidity'>Humedad: 0%</p>
-
-      
     </div>
     <p id='error' style='color:red'></p>
   </div>
