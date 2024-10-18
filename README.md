@@ -9,7 +9,7 @@ utilizando la api API de openweathermap. La Prueba se realizara con html, JavaSc
 3. Copiar el archivo `.env.template` a `.env` y pegar tu api key
 4. Ejecutar el servidor con `npm run dev` o `pnpm dev`
 
-Requisitos:
+
 ## Interfaz de usuario
 - Un campo de entrada para ingresar la ubicación.
 - Un botón para enviar la consulta.
