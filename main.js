@@ -49,7 +49,6 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     return
   }
 
-  
   try {
     const data = await getWeather(location)
 
@@ -65,13 +64,9 @@ document.querySelector('form').addEventListener('submit', async (event) => {
     document.getElementById('temp').innerHTML = `Temperatura: ${temp}°C`
     document.getElementById('humidity').innerHTML = `Humedad: ${data.main.humidity}%`
 
-    
   } catch (error) {
     console.log(error)
     error.innerHTML = 'Error al obtener los datos'
-
-    
   }
-
 })
 
