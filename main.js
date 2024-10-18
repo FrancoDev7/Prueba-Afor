@@ -29,7 +29,7 @@ async function getWeather(cityName) {
   const url = `${API_URL}?q=${cityName}&appid=${API_KEY}`
   const response = await fetch(url)
   const data = await response.json()
-  console.log(data)
+  //console.log(data)
   return data
 }
 
@@ -59,7 +59,7 @@ document.querySelector('form').addEventListener('submit', async (event) => {
       return
     }
 
-    console.log(data)
+    //console.log(data)
     // convertir la temperatura de kelvin a celsius los grados kelvin son 273.15 
     const temp = (data.main.temp - 273.15).toFixed(0) // convertir a entero
     document.getElementById('temp').innerHTML = `Temperatura: ${temp}°C`
