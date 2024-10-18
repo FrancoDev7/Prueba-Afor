@@ -1,6 +1,5 @@
 import './style.css'
 
-
 document.querySelector('#app').innerHTML = `
   <div>
     <h1>Prueba Afor Clima</h1>
@@ -20,8 +19,6 @@ document.querySelector('#app').innerHTML = `
 
 const API_KEY = import.meta.env.VITE_API_KEY
 const API_URL = import.meta.env.VITE_API_URL
-
-
 
 async function getWeather(cityName) {
   const url = `${API_URL}?q=${cityName}&appid=${API_KEY}`
