@@ -2,7 +2,7 @@ import './style.css'
 
 document.querySelector('#app').innerHTML = `
   <div>
-    <h1>Prueba Afor Clima</h1>
+    <h1>Prueba Afor Clima 🌤️</h1>
     <form>
       <input type="text" id="location" placeholder="Barcelona, Chile, etc" />
       <button type="submit">Enviar</button>
