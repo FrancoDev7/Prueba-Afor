@@ -3,6 +3,11 @@ Crear una aplicacion web que permita al usuario ingresar una ubicacion y obtener
 utilizando la api API de openweathermap. La Prueba se realizara con html, JavaScript y CSS.
 - API = https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
+1. Clonar el repositorio
+2. Instalar dependencias con `npm install` o con el empaquetador `pnpm install` o el que gustes
+3. Copiar el archivo `.env.template` a `.env` y pegar tu api key
+4. Ejecutar el servidor con `npm run dev` o `pnpm dev`
+
 Requisitos:
 ## Interfaz de usuario
 - Un campo de entrada para ingresar la ubicación.
