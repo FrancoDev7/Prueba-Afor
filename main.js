@@ -4,7 +4,7 @@ document.querySelector('#app').innerHTML = `
   <div>
     <h1>Prueba Afor Clima</h1>
     <form>
-      <input type="text" id="location" placeholder="Barcelona, Chile etc" />
+      <input type="text" id="location" placeholder="Barcelona, Chile, etc" />
       <button type="submit">Enviar</button>
     </form>
 
