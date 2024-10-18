@@ -20,8 +20,8 @@ document.querySelector('#app').innerHTML = `
   </div>
 `
 
-const API_KEY = 'c5ebdde899bee15f5f552139c07b6310'
-const API_URL = 'https://api.openweathermap.org/data/2.5/weather'
+const API_KEY = import.meta.env.VITE_API_KEY
+const API_URL = import.meta.env.VITE_API_URL
 
 
 
